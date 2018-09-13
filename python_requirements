@@ -1,0 +1,4 @@
+psycopg2-binary==2.7.5
+requests==2.9.2
+paddlepaddle-gpu==0.14.0.post87
+sklearn==0.0
