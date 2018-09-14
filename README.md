@@ -16,7 +16,9 @@
 
 运行 `sql/process_data.sql` 整理数据。运行后可删除 `sql/drop_unused_data.sql` 来删除其余不需要的数据从而释放空间。
 
-## 从 Cover Art Archive 获取
+你也可以直接 [下载](https://pan.baidu.com/s/11mu5rZH3uLtt8FK4d8NO4g) 我 dump 好的数据库文件。
+
+## 从 Cover Art Archive 获取专辑封面
 
 安装 [pip](https://pypi.org/project/pip/) 并运行
 
