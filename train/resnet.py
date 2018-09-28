@@ -17,7 +17,7 @@ def conv_bn(input, ch_out, filter_size, stride, padding, act='relu',
 
 def shortcut(input, ch_in, ch_out, stride):
     if ch_in != ch_out:
-        return conv_bn(input, ch_out, 1, stride, 0, None)
+        return conv_bn(input, ch_out, 1, stride, 0, None)   // change channel by conv 1x1
     else:
         return input
 
