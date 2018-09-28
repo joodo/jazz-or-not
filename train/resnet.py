@@ -9,7 +9,7 @@ def conv_bn(input, ch_out, filter_size, stride, padding, act='relu',
         num_filters=ch_out,
         stride=stride,
         padding=padding,
-        act=None,
+        act=act,
         bias_attr=bias_attr,
     )
     return fluid.layers.batch_norm(input=conv_layer, act=act)
